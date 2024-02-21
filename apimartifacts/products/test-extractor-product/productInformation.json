@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": false,
+    "description": "test-extractor-product",
+    "displayName": "test-extractor-product",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}
