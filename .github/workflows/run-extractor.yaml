@@ -93,6 +93,9 @@ jobs:
           $VerbosePreference = "Continue"
           $InformationPreference = "Continue"
 
+          Write-Information "Downloading extractor..."
+          $extractorFileName = "extractor.linux-x64"
+          $extractorFinalFileName = "extractor"
           if ("${{ runner.os }}" -like "*win*") {
             $extractorFileName = "extractor.win-x64.exe"
             $extractorFinalFileName = "extractor.exe"
